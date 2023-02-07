@@ -46,7 +46,7 @@ public class SimpleTest {
 
 
 
-    @AfterAll
+   // @AfterAll
     static void close(){
         driver.quit();
     }

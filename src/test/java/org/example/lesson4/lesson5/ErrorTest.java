@@ -9,10 +9,9 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
-public class ErrorTest extends AbstractTest {
+public class ErrorTest extends MobailVersionTest {
 
     @Test
     void test() throws InterruptedException {

@@ -1,10 +1,9 @@
 package org.example.lesson5;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WindowType;
 
-public class WindowTest extends AbstractTest{
+public class WindowTest extends MobailVersionTest {
 
     @Test
     void test() throws InterruptedException {
